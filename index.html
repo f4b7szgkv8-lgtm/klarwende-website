@@ -8,6 +8,29 @@
   <link rel="icon" href="icon.png">
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
+  <style>
+    .store { margin-top: 28px; }
+    .store-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 26px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #ffffff;
+      font-size: 17px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 8px 28px rgba(91, 141, 239, 0.30);
+    }
+    .store-button:hover, .store-button:focus-visible { background: #6f9cf2; }
+    .store-button svg { width: 18px; height: 18px; fill: currentColor; }
+    .store-note {
+      margin: 12px 0 0;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+  </style>
 </head>
 <body>
   <div class="wrap">
@@ -16,6 +39,13 @@
       <img src="icon.png" alt="Klarwende App-Symbol" onerror="this.style.display='none'">
       <h1>Klarwende</h1>
       <p class="lead">Verstehe dich selbst, erkenne deine Muster und verändere deinen Weg Schritt für Schritt.</p>
+      <div class="store">
+        <a class="store-button" href="https://apps.apple.com/de/app/klarwende/id6831682831">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1zM5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1z"/></svg>
+          Im App Store laden
+        </a>
+        <p class="store-note">Kostenlos für iPhone · Deutschland, Österreich, Schweiz</p>
+      </div>
     </section>
 
     <h2>Worum es geht</h2>
